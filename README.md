@@ -1,5 +1,5 @@
 # 403-Bypass-Jagat
-### >_ Introduction
+### Introduction
 
 **403-Bypass-Jagat**
 Tool to bypass 403/401. This script contain all the possible techniques to do the same. 
@@ -7,16 +7,16 @@ Tool to bypass 403/401. This script contain all the possible techniques to do th
 - **NOTE** : If you see multiple [200 Ok]/bypasses as output, you must check the Content-Length. If the content-length is same for multiple [200 Ok]/bypasses means false positive. Reason can be "301/302" or "../" [Payload] DON'T PANIC.
 - Script will print `cURL` PAYLOAD if possible bypass found.
 
-### >_ Preview
+### Preview
 ![403-Bypass-Jagat_priview](/403-Bypass-Jagat.mp4)
 
-### >_ Help
+###  Help
 ```bash
 root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -h
 ```
 <img src="/403-Bypass-Jagat.png" alt="403-Bypass-Jagat" width="1000px">
 
-### >_ Usage / Modes
+### Usage / Modes
 
 - Scan with specific payloads:
   * [ `--header` ] Support HEADER based bypasses/payloads
