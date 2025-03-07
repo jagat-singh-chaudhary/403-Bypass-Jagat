@@ -9,7 +9,7 @@ Tool to bypass 403/401. This script contain all the possible techniques to do th
 
 ### Video Preview
 
-![403-Bypass-Jagat](https://github.com/jagat-singh-chaudhary/403-Bypass-Jagat/blob/main/403-Bypass-Jagat.mp4)
+![403-Bypass-Jagat](https://github.com/jagat-singh-chaudhary/403-Bypass-Jagat/blob/main/403-Bypass-Jagat.gif)
 
 ###  Help
 ```bash
