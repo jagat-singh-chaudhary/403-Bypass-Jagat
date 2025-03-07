@@ -8,7 +8,8 @@ Tool to bypass 403/401. This script contain all the possible techniques to do th
 - Script will print `cURL` PAYLOAD if possible bypass found.
 
 ### Video Preview
-![403-Bypass-Jagat_priview](https://github.com/jagat-singh-chaudhary/403-Bypass-Jagat/blob/main/403-Bypass-Jagat.mp4)
+
+![403-Bypass-Jagat](https://github.com/jagat-singh-chaudhary/403-Bypass-Jagat/blob/main/403-Bypass-Jagat.mp4)
 
 ###  Help
 ```bash
