@@ -4,8 +4,15 @@
 **403-Bypass-Jagat**
 Tool to bypass 403/401. This script contain all the possible techniques to do the same. 
 
-- **NOTE** : If you see multiple [200 Ok]/bypasses as output, you must check the Content-Length. If the content-length is same for multiple [200 Ok]/bypasses means false positive. Reason can be "301/302" or "../" [Payload] DON'T PANIC.
-- Script will print `cURL` PAYLOAD if possible bypass found.
+- **Note:** If multiple `[200 OK]` responses or bypasses appear in the output, please verify the Content-Length. If the Content-Length is identical for multiple `[200 OK]` responses or bypasses, it indicates a false positive. Possible reasons could include "301/302" redirects or "../" [Payload]. **Do not panic.**
+
+- The script will output the `cURL` payload if a potential bypass is detected.
+
+### Installation
+   * `git clone https://github.com/jagat-singh-chaudhary/403-Bypass-Jagat.git`
+   * `cd 403-Bypass-Jagat`
+   * `chmod +x 403-Bypass-Jagat.sh`
+   * `sudo apt install figlet`  - If you are unable to see the logo as in the screenshot
 
 ### Video Preview
 
@@ -49,7 +56,7 @@ root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -h
 root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --exploit
 ```
 
-##### Prerequisites
+### Prerequisites
 - apt install curl [Debian]
 
 
