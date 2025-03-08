@@ -20,7 +20,7 @@ Tool to bypass 403/401. This script contain all the possible techniques to do th
 
 ###  Help
 ```bash
-root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -h
+Jagat_Singh:$ bash 403-Bypass-Jagat.sh -h
 ```
 <img src="/403-Bypass-Jagat.png" alt="403-Bypass-Jagat" width="1000px">
 
@@ -29,31 +29,31 @@ root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -h
 - Scan with specific payloads:
   * [ `--header` ] Support HEADER based bypasses/payloads
     ```bash
-    root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --header
+    Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --header
     ```
   * [ `--protocol` ] Support PROTOCOL based bypasses/payloads
     ```bash
-    root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --protocol
+    Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --protocol
     ```
   * [ `--port` ] Support PORT based bypasses/payloads
     ```bash
-    root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --port
+    Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --port
     ```
   * [ `--HTTPmethod` ] Support HTTP Method based bypasses/payloads
     ```bash
-    root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --HTTPmethod
+    Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --HTTPmethod
     ```
   * [ `--encode` ] Support URL Encoded bypasses/payloads
     ```bash
-    root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --encode
+    Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --encode
     ```
   * [ `--SQLi` ] Support MySQL mod_Security & libinjection bypasses/payloads [** New **]
     ```bash
-    root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --SQLi
+    Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --SQLi
     ```
 - Complete Scan {includes all exploits/payloads} for an endpoint [ --exploit ]
 ```bash
-root@Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --exploit
+Jagat_Singh:$ bash 403-Bypass-Jagat.sh -u https://target.com/secret --exploit
 ```
 
 ### Prerequisites
